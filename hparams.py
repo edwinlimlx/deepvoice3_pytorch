@@ -133,7 +133,7 @@ hparams = tf.contrib.training.HParams(
 
     # Data loader
     pin_memory=True,
-    num_workers=2,
+    num_workers=8,
 
     # Loss
     masked_loss_weight=0.0,  # (1-w)*loss + w * masked_loss
